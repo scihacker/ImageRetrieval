@@ -20,4 +20,4 @@ def vgg16_ft(path="vgg16/imagenet/vgg16", epochs=0):
 
     new_args = dict({k: arg_params[k] for k in arg_params if 'fc8' not in k})
 
-    return sym, new_args, aux_params
+    return net, new_args, aux_params

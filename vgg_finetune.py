@@ -26,8 +26,8 @@ def train():
     sym, arg_params, aux_params = nn_loader.vgg16_ft(path="vgg16/imagenet/vgg16", epochs=0)
 
     mod = mx.mod.Module(symbol=sym, context=devs, label_names=['prob_label'])
-    mod.bind(data_shapes=('data', (batch_size, 3, 224, 224)), label_shapes=('prob_label', (batch_size,)))
-    mod.fit(train_set, val_set, num_epoch=5, arg_params=arg_params, 
+    mod.bind(data_shapes=[('data', (batch_size, 3, 224, 224))], label_shapes=[('prob_label', (batch_size,))])
+    mod.fit(train_set, val_set, num_epoch=conf['num_epochs'], arg_params=arg_params, 
             aux_params=aux_params, eval_metric='acc',
             batch_end_callback = mx.callback.Speedometer(batch_size, 10),
             optimizer='sgd', optimizer_params={'learning_rate': conf['learning_rate']},
