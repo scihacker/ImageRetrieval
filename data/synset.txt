@@ -1,0 +1,560 @@
+adidas	1343
+aeroplane	2789
+airplane	4198
+airship	1111
+ak47	2412
+alarm clock	319
+alhambra	1187
+american flag	1250
+american football	1927
+angel	3093
+angle	3042
+animal	4096
+ape	2029
+apple	6056
+apple green	809
+apple ipad	519
+apple iphone	430
+apple logo	469
+apple mac	523
+apple red	882
+arch	4212
+arrow	1598
+automobile	4150
+autumn	3043
+baby	3894
+baby carriage	140
+badminton	1674
+bag	5796
+bag burberry	808
+bag coach	633
+bag gucci	694
+baggage	1013
+ball	4066
+ballet	4254
+ballet dancer	851
+balloon	4349
+banana	4026
+barrel	2300
+baseball	3865
+basket	4230
+basketball	3933
+bat	2102
+battery	1429
+bay	4440
+beach	4261
+bear	4141
+bear lake	332
+beauty	3938
+bed	3510
+bee	3671
+beer	4127
+beer mug	1043
+bench	4303
+bicycle	4099
+big dog	89
+bight	244
+bike	4417
+bird	4791
+birds	4180
+birthday cake	1153
+biscuit	691
+blackberry	1438
+blimp	777
+blind window	68
+blouse	1580
+boar	1226
+boat	4087
+bone	1826
+book	3947
+bookshelf	1340
+boot	2698
+bottle	4091
+bowl	4373
+bowling pin	941
+boy	3639
+brain	805
+brooch	872
+broom	2244
+bucket	2475
+buffalo	4078
+bug	3957
+bugle	988
+bulb	4028
+bull	4244
+bus	4930
+butter	1987
+butterfly	4460
+butterfly tie	631
+button	2652
+cabin	2988
+cabinet	1308
+cactus	3913
+cake	4276
+camel	3266
+camera	4097
+canada	3191
+canada flag	507
+canary bird	381
+candle	3097
+candlestick	210
+candy	3832
+cap	4614
+car	4121
+car back	835
+car front	1105
+car side	1225
+carp	1228
+carrot	1013
+cat	4031
+cattle	2648
+cd	2363
+cell phone	2057
+cello	975
+chair	4136
+cheese	4104
+cherry	3633
+chess board	1104
+chicken	3981
+child	4054
+children	3948
+china	3141
+chinese dragon	621
+chinese flag	584
+chinese lantern	838
+chopsticks	1304
+christmas	3101
+chrysanthemum	2699
+church	4169
+clock	4244
+clothes	3520
+cn tower	784
+coat	2525
+coat hanger	1003
+cocktail	1592
+cocktail dress	176
+cocktail glass	127
+cocktail table	244
+coconut tree	264
+cod fish	607
+coffee	3722
+coffee cup	985
+coke	3881
+comb	1341
+computer	3586
+condor	791
+cookie	1968
+corn	3958
+cottage	4110
+couch	3787
+cougar	1358
+cow	3979
+crab	4276
+crane	4095
+crescent	1450
+crown	3920
+crystal vase	286
+cubby house	373
+cuckoo	716
+cup	4600
+cute dog	159
+cyclist	1414
+daffodilly	21
+daisy	4528
+dancer	3495
+dandelion	3165
+deer	4398
+dell	1093
+desert	4207
+desk	3764
+desk lamp	963
+diamond	2580
+dinosaur	3836
+dog	4158
+doll	4123
+dolphin	3102
+donkey	1887
+door	3978
+dove	2332
+dragon	3855
+dragonfly	4191
+drawing pins	102
+dress	4537
+dubai hotel	676
+duck	4121
+duckling	1341
+dumpling	152
+dune	3108
+eagle	4270
+earth	3757
+earthworm	948
+egg	4047
+eggplant	807
+eiffel tower	5877
+electric iron	611
+elephant	4486
+envelope	1193
+eye	4352
+eyeglasses	948
+eyes	3946
+face	4250
+fall	3073
+farmer	1871
+field	3985
+figure skating	757
+finger	3544
+fish	4070
+fisherman	2143
+flag	3663
+flashlight	2944
+flower	4640
+flower vase	227
+fly	3991
+flying bird	1153
+folding fan	874
+food	3546
+foot	3583
+footprint	1759
+forest	4019
+fork	2276
+fox	3758
+french flag	509
+french horn	728
+frisbee	1193
+frog	2823
+fruit	3697
+frying pan	771
+fuji mountain	602
+garden	4056
+gateway arch	873
+german	2606
+german shepherd dog	130
+gift	3694
+giraffe	3997
+girl	3799
+glass vase	210
+glasses	3987
+globe	1991
+glove	1486
+goat	3389
+golden gate bridge	2004
+goldfish	1334
+google	2443
+google logo	379
+goose	4075
+gorilla	2240
+grandfather	1385
+grandmother	1851
+grape	1988
+grapes	3260
+grass	4204
+grassland	1547
+great wall	1416
+great wall of china	354
+guitar	3826
+guitar pick	957
+gun	3863
+hair	3760
+ham	1073
+hamburger	1444
+hand	4148
+handbag	1482
+harbour bridge	3336
+harp	1508
+hat	3902
+hawk	2111
+head	3993
+heart	3939
+hedgehog	2524
+helicopter	2919
+helmet	3379
+hen	1907
+heron	3537
+herring	745
+highway	3738
+hill	3975
+hiphop dancer	620
+horse	3892
+hot air balloon	2561
+hot dog	865
+hotel	3779
+house	4210
+ibm	820
+iceberg	3002
+icebox	883
+icecream	2503
+insect	3940
+iron	3805
+island	3854
+jacket	2506
+jalor	459
+japan	3106
+jazz dancer	676
+jeans	3416
+jeep	4053
+jellyfish	3669
+jet plane	647
+jewelry	4071
+juice	1304
+jungle	3927
+key	3462
+keyboard	2286
+kid	3784
+kite	2555
+kitten	3724
+knife	2691
+koala	3218
+ladder	3234
+lady	3126
+ladybug	3913
+lake	4192
+lamp	4119
+landscape	3247
+lantern	2121
+laptop	2098
+leaf	4090
+leg	2332
+lemon	2298
+letter a	876
+letter b	396
+letter c	391
+letter d	552
+letter e	581
+letter f	492
+letter g	18
+letter h	500
+letter i	18
+letter r	53
+letter z	193
+lighthouse	3985
+lily	4017
+lion	3731
+lip	1342
+lock	3221
+log cabin	1768
+london	3091
+london bridge	287
+london eye	4005
+london tower bridge	177
+lotus flower	1039
+luggage	1175
+mackerel	528
+magic cube	1367
+mail	1820
+mailman	731
+mango	535
+maple	2134
+maple leaf	380
+mashimaro	634
+milk	2019
+model	3701
+mona lisa	120
+monitor	1716
+monkey	3950
+moon	3664
+moon cake	61
+mooncake	816
+morning glory	3083
+morning glory pool	152
+mosquito	1834
+motorbike	2373
+motorboat	1019
+mountain	3093
+mug	4701
+mushroom	4298
+nachos	557
+national flag	907
+nature	3059
+nba	1315
+necklace	3327
+necktie	777
+nike	1523
+number	2261
+number 1	789
+number 10	985
+number 2	812
+number 3	808
+number 4	756
+number 5	803
+number 6	772
+number 7	726
+number 8	747
+number 9	788
+ocean	3906
+ocean wave	933
+olympic	2860
+open road	679
+orange	4190
+ostrich	3424
+palm tree	2800
+pancake	459
+panda	1991
+paper fan	734
+paris	3068
+pea	878
+peach	2746
+peacock	3941
+peanut	1906
+pear	2770
+pen	3565
+pencil	3446
+pencil vase	53
+penguin	3306
+peony	1158
+people	3645
+phone	3518
+piano	3544
+pig	2541
+pigeon	5139
+pillow	3128
+pineapple	1501
+pisa tower	717
+pizza	3258
+plane	4225
+pond	3255
+pony	1680
+potato	1318
+prawn	1334
+princess	2614
+pudding	442
+puma	2470
+pumpkin	2275
+puppy	3779
+pyramid	3440
+queen	2659
+question mark	598
+rabbit	3740
+racing cycle	707
+radio	3126
+railroad	3406
+railway	3521
+rainbow	3540
+refrigerator	859
+revolver	1143
+ring	3814
+robot	2115
+rocket	2299
+roof	3501
+rooster	2607
+rose	4255
+running dog	680
+running girl	462
+running man	102
+sailboat	4629
+sailboat hotel	867
+salmon	3097
+saturn	1236
+scissors	1397
+sea	4000
+sea horse	1094
+sea shell	1284
+seabird	1145
+seagull	5893
+shark	2871
+shed	3104
+sheep	4050
+shoe	2897
+skate fish	257
+skiing	3068
+sky	3295
+skyscraper	3691
+smile	3763
+smiley face	898
+snake	3906
+snow	3612
+snowman	819
+soccer	3777
+soccer ball	1158
+sofa	2723
+sony	3877
+spain flag	506
+sparrow	2449
+spoon	2765
+sport car	631
+spring	3010
+stapler	672
+star	3487
+starfish	3669
+statue of liberty	1540
+stop sign	780
+strawberry	3604
+street dancer	558
+suburb	900
+suit	1630
+summer	3028
+sun	3880
+sunflower	4296
+sunrise	3078
+sunset	3080
+swallow	1599
+swan	4237
+sydney opera	1933
+t shirt	3422
+table	4402
+table globe	734
+table lamp	769
+tai chi	760
+taj mahal	874
+tank	3810
+tap	1010
+tea	3832
+teacup	1519
+teapot	1645
+teddy bear	2199
+temple	3457
+temple of heaven	3367
+tennis ball	1096
+tennis racket	600
+thinkpad	1056
+tiger	4510
+tomato	2945
+toothbrush	1059
+torch	2530
+tortoise	413
+towel	964
+tower	4113
+toy	3916
+traffic sign	136
+train	3861
+tram	3211
+tree	4596
+trees	3051
+triangle	2043
+triumphal arch	2697
+trout	892
+truck	3858
+trumpet	2518
+tulip	3073
+tuna	1058
+tv set	1009
+uk flag	524
+umbrella	4665
+vase	1592
+vegetable	2359
+village	3110
+violet	3102
+violin	2992
+waistcoat	743
+walk a dog	18
+walking cat	716
+walking dog	981
+walking man	612
+wallet	320
+watch	2521
+water	3370
+water lily	3247
+waterfall	3770
+watermelon	1402
+whale	2802
+windmill	4086
+window	3647
+winter	3044
+witch	2202
+wolf	3274
+woman	3121
+woods	3975
+yellowstone	3033
+yinyang	835
+yoga	1356
+zebra	4450
+zoo	3057
