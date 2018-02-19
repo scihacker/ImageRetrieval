@@ -18,16 +18,18 @@ def train():
     conf = config.finetune1
     data_shape = (3, 224, 224)
     devs = [mx.gpu(i) for i in range(conf['num_gpus'])]
+    batch_size = conf['batch_size'] * conf['num_gpus']
     # Data
-    train_set = _get_iterator("data/DB1M_train.lst", conf['batch_size'] * conf['num_gpus'], data_shape)
+    train_set = _get_iterator("data/DB1M_train.lst", batch_size, data_shape)
     val_set = _get_iterator("data/DB1M_val.lst", 64 * conf['num_gpus'], data_shape)
     # Load or Rebuild
     sym, arg_params, aux_params = nn_loader.vgg16_ft(path="vgg16/imagenet/vgg16", epochs=0)
 
     mod = mx.mod.Module(symbol=sym, context=devs, label_names=['prob_label'])
+    mod.bind(data_shapes=('data', (batch_size, 3, 224, 224)), label_shapes=('prob_label', (batch_size,)))
     mod.fit(train_set, val_set, num_epoch=5, arg_params=arg_params, 
             aux_params=aux_params, eval_metric='acc',
-            batch_end_callback = mx.callback.Speedometer(conf['batch_size'], 10),
+            batch_end_callback = mx.callback.Speedometer(batch_size, 10),
             optimizer='sgd', optimizer_params={'learning_rate': conf['learning_rate']},
             initializer=mx.init.Xavier(rnd_type='gaussian', factor_type="in", magnitude=2), 
             epoch_end_callback=mx.callback.do_checkpoint("nn/vgg16/finetune/vgg16"))
