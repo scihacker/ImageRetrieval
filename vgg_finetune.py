@@ -28,7 +28,7 @@ def train():
     mod = mx.mod.Module(symbol=sym, context=devs, label_names=['prob_label'])
     mod.bind(data_shapes=[('data', (batch_size, 3, 224, 224))], label_shapes=[('prob_label', (batch_size,))])
     mod.fit(train_set, val_set, num_epoch=conf['num_epochs'], arg_params=arg_params, 
-            aux_params=aux_params, eval_metric='acc',
+            aux_params=aux_params, eval_metric='acc', allow_missing=True,
             batch_end_callback = mx.callback.Speedometer(batch_size, 10),
             optimizer='sgd', optimizer_params={'learning_rate': conf['learning_rate']},
             initializer=mx.init.Xavier(rnd_type='gaussian', factor_type="in", magnitude=2), 
@@ -47,7 +47,7 @@ def test():
     # Load
     sym, arg_params, aux_params = nn_loader.vgg16(path="vgg16/finetune/vgg16", epochs=0)
     mod = mx.mod.Module(symbol=sym, context=devs)
-    # mod.bind(for_training=False, data_shape=[('data', (1,3,224,224))], label_shapes=mod._label_shapes)
+    mod.bind(for_training=False, data_shapes=[('data', (1,3,224,224))], label_shapes=mod._label_shapes)
     mod.set_params(arg_params, aux_params, allow_missing=True)
 
     print("Test Accuracy:", mod.score(test_set, mx.metric.Accuracy()))
