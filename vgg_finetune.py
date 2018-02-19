@@ -1,7 +1,9 @@
 import os
+import sys
 import mxnet as mx
 from config import config
 from nn import nn_loader
+import argparse
 
 
 def _get_iterator(file_name, batch_size, data_shape):
@@ -21,12 +23,12 @@ def train():
     val_set = _get_iterator("data/DB1M_val.lst", 64 * conf['num_gpus'], data_shape)
     # Load or Rebuild
     sym, arg_params, aux_params = nn_loader.vgg16_ft(path="vgg16/imagenet/vgg16", epochs=0)
-        
+
     mod = mx.mod.Module(symbol=sym, context=devs)
     mod.fit(train_set, val_set, num_epoch=5, arg_params=arg_params, 
             aux_params=aux_params, eval_metric='acc',
             batch_end_callback = mx.callback.Speedometer(conf['batch_size'], 10),
-            optimizer='sgd', optimizer_params={'learning_rate': 0.01},
+            optimizer='sgd', optimizer_params={'learning_rate': conf['learning_rate']},
             initializer=mx.init.Xavier(rnd_type='gaussian', factor_type="in", magnitude=2), 
             epoch_end_callback=mx.callback.do_checkpoint("nn/vgg16/finetune/vgg16"))
 
@@ -48,3 +50,11 @@ def test():
 
     print("Test Accuracy:", mod.score(test_set, mx.metric.Accuracy()))
     return mod
+
+if __name__ == "__main__":
+    func = globals().get(sys.argv[1])
+    if func:
+        func(*sys.argv[2:])
+    else:
+        print("Usage: python %s [function] ..." % (sys.argv[0]))
+

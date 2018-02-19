@@ -4,5 +4,6 @@ import json
 
 cwd = os.path.split(__file__)[0]
 
-main_conf = json.load(os.path.join(cwd, "config.json"))
+with open(os.path.join(cwd, "config.json"), 'r') as f:
+    main_conf = json.load(f)
 finetune1 = main_conf["finetune1"]
